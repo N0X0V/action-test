@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
-      - uses: N0X0V/python-auto-setup@4b81c02bf62c44f3a3aca18c354d53dc576829e6
+      - uses: N0X0V/python-auto-setup@v1
         with:
           pythonVersion: "3.11"
           pythonScript: "main.py"
