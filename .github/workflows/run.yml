@@ -4,7 +4,7 @@ jobs:
   run:
     runs-on: ubuntu-22.04
     steps:
-      - uses: N0X0V/python-auto-setup
+      - uses: N0X0V/python-auto-setup@4b81c02
         with:
           pythonVersion: "3.11"
           pythonScript: "main.py"
