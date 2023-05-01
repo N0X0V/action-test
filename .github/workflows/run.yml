@@ -1,0 +1,10 @@
+name: run-script
+on: [push]
+jobs:
+  run:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: N0X0V/python-auto-setup
+        with:
+          pythonVersion: "3.11"
+          pythonScript: "main.py"
