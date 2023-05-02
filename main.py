@@ -1,22 +1,10 @@
+#!/usr/bin/env python3
+
 import requests
 
 
-def main():
-    print("""\
-
-                                       ._ o o
-                                       \_`-)|_
-                                    ,""       \\
-                                  ,"  ## |   ಠ ಠ.
-                                ," ##   ,-\__    `.
-                              ,"       /     `--._;)
-                            ,"     ## /
-                          ,"   ##    /
-
-
-                    """)
-    requests.get("https://google.com")
-    print("> No error")
+def main() -> None:
+    print(requests.__version__)
 
 
 if __name__ == "__main__":
